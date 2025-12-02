@@ -8,10 +8,13 @@ void main() {
   // 2. Inferencia de tipos (Usando var)
   // Dart sabe que esto es un String automáticamente
   var ocupacion = 'Estudiante';
+  print(ocupacion);
 
   // 3. Constantes (No cambiarán nunca en este código)
   final String fechaHoy = '26/11/2025';
+  print(fechaHoy);
   const double pi = 3.1416;
+  print(pi);
   String apellido = "Udler";
 
   // Imprimir en consola
@@ -24,6 +27,8 @@ void main() {
 
   // Lógica simple: Condicional dentro de un print (Operador ternario)
   // Se lee: ¿esClienteNuevo es verdadero? Si sí, imprime "Sí", si no, imprime "No"
+  print('¿Es nuevo?: ${esClienteNuevo ? 'Sí' : 'No'}');
+  esClienteNuevo = false;
   print('¿Es nuevo?: ${esClienteNuevo ? 'Sí' : 'No'}');
 
   print('-------------------------');
